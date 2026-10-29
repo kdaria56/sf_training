@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <types>
+        <members>GameResult__c</members>
+        <name>CustomObject</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>CustomSite</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>Network</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>DigitalExperienceBundle</name>
+    </types>
+
+    <types>
+        <members>GameResult__c-GameResult Layout</members>
+        <name>Layout</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>Profile</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>DigitalExperienceConfig</name>
+    </types>
+    <version>67.0</version>
+
+</Package>
