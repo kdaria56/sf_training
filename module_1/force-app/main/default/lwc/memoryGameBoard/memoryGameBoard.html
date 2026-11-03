@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Memory Game">
+        <div class="slds-p-around_medium">
+            <div class="info-panel slds-box slds-theme_shade slds-m-bottom_medium">
+                <h2 class="slds-text-title_bold">Results: </h2>
+            </div>
+
+            <div class="game-grid slds-card">
+                <template for:each={cards} for:item="card">
+                    <c-memory-game-card key={card.id} card-id={card.id}></c-memory-game-card>
+                </template>
+            </div>
+
+        </div>
+    </lightning-card>
+</template>
